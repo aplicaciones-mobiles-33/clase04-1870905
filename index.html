@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+       <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="row">
+               <div class="col-12">
+                <button class="btn btn-primary" id="getBtn">Get</button>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-12"_>
+                    <button class="btn btn-primary" id="get404Btn">Get 404</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary" id="get200Btn">Get 200</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary" id="postBtn">Post</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary" id="deleteBtn">Delete</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary" id="putBtn">Put</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <h2 id="estadoRequest"></h2>
+        <img src="" alt="" id="imgResponse">
+        <div class="container" id="responseData">
+            <div class="row">
+
+                <!--ejemplo-->
+                <div class="col-4 response">
+                    <p class="nombre"></p>
+                    <p class="email"></p>
+                    <img src="" alt="" class="avatar">
+                </div>
+
+            </div>
+        </div>
+
+        
+        <script src="request.js" async defer></script>
+    </body>
+</html>

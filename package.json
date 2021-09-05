@@ -1,0 +1,22 @@
+{
+  "name": "clase-04",
+  "version": "1.0.0",
+  "description": "requests y errores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://luzaracelydls@github.com/aplicaciones-mobiles-33/clase-04.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aplicaciones-mobiles-33/clase-04/issues"
+  },
+  "homepage": "https://github.com/aplicaciones-mobiles-33/clase-04#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
+}
